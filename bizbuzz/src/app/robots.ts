@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://www.bizbuzz.it/sitemap.xml",
+    sitemap: "https://bizbuzz.it/sitemap.xml",
   };
 }

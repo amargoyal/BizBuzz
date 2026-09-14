@@ -9,7 +9,7 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.bizbuzz.it"),
+  metadataBase: new URL("https://bizbuzz.it"),
   title: {
     default: "BizBuzz NFP | Youth Entrepreneurship Camps & Fish Tank in Naperville",
     template: "%s | BizBuzz NFP",
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     siteName: "BizBuzz NFP",
-    url: "https://www.bizbuzz.it",
+    url: "https://bizbuzz.it",
     title: "BizBuzz NFP | Youth Entrepreneurship Camps & Fish Tank",
     description:
       "Free entrepreneurship camps, workshops, and pitch competitions for elementary and middle school students across Chicagoland.",
