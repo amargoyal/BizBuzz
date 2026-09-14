@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Figtree } from "next/font/google";
 import "./globals.css";
-import { SITE_URL } from "@/lib/site";
+import { BASE_PATH, SITE_URL } from "@/lib/site";
 
 // One family, with separate heading, body, and numeric roles.
 const figtree = Figtree({
@@ -51,11 +51,11 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: [
-      { url: "/favicon.ico", sizes: "any" },
-      { url: "/logo.png", type: "image/png" },
+      { url: `${BASE_PATH}/favicon.ico`, sizes: "any" },
+      { url: `${BASE_PATH}/logo.png`, type: "image/png" },
     ],
-    shortcut: "/logo.png",
-    apple: "/logo.png",
+    shortcut: `${BASE_PATH}/logo.png`,
+    apple: `${BASE_PATH}/logo.png`,
   },
 };
 

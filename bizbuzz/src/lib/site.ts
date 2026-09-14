@@ -1,6 +1,9 @@
 import type { NavItem } from "@/components/ds/NavBar";
 
 export const SITE_URL = "https://www.bizbuzz.it";
+/** Path prefix this build is served under. Empty at the domain root. */
+export const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+
 export const CONTACT_EMAIL = "bizbuzznfp@gmail.com";
 
 /** Registration forms. These are the live Google Forms the org already uses. */
